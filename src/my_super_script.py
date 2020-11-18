@@ -1,12 +1,16 @@
 import os
 import time
+import yaml # just to check that packages from requirements.txt are installed
 import supervisely_lib as sly
+import cv2
 
-my_app = sly.AppService()
+img = cv2.imread('/Users/maxim/Downloads/screenshot-777.png')
 
 task_id = os.environ["TASK_ID"]
 TEAM_ID = int(os.environ['context.teamId'])
 WORKSPACE_ID = int(os.environ['context.workspaceId'])
+
+my_app = sly.AppService()
 
 
 @my_app.callback("do_something")
