@@ -26,6 +26,7 @@ def do(api: sly.Api, task_id, context, state, app_logger):
     for i in range(steps_count):
         print(i)
         time.sleep(1)
+        task_progress.iter_done_report()
 
     my_app.stop()
 
