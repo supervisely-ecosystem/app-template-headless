@@ -1,10 +1,10 @@
 import os
 import time
-import yaml # just to check that packages from requirements.txt are installed
-import supervisely_lib as sly
-import cv2
 
-img = cv2.imread('/Users/maxim/Downloads/screenshot-777.png')
+#@TODO: debug to check that packages from requirements.txt are installed
+import yaml
+import supervisely_lib as sly
+
 
 task_id = os.environ["TASK_ID"]
 TEAM_ID = int(os.environ['context.teamId'])
@@ -40,7 +40,7 @@ def main():
     initial_events = [{"state": None, "context": None, "command": "do_something"}]
 
     # Run application service
-    my_app.run(data=data, state=state, initial_events=initial_events)
+    my_app.run(initial_events=initial_events)
 
 
 if __name__ == "__main__":
