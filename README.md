@@ -3,7 +3,7 @@ template for your app without GUI. This app prints progress bar 10 times and sle
 
 
 How app works:
-<a href="https://i.imgur.com/SoBNNJj.mp4" title="demo video"><img src="https://i.imgur.com/4TjdSLT.png" alt="See how it works" /></a>
+<a href="https://i.imgur.com/SoBNNJj.mp4" title="demo video"><img src="https://i.imgur.com/E4NvKH2.png" alt="See how it works" width="500px"/></a>
 
 
 aaa
