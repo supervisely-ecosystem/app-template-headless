@@ -4,4 +4,4 @@ template for your app without GUI. This app prints progress bar 10 times and sle
 
 See video how app works:
 
-<a href="https://i.imgur.com/SoBNNJj.mp4" title="demo video"><img src="https://i.imgur.com/E4NvKH2.png" alt="See how it works" width="500px"/></a>
+[![video demo](https://img.youtube.com/vi/4VdvP0SRbiM/0.jpg)](https://www.youtube.com/watch?v=4VdvP0SRbiM)
