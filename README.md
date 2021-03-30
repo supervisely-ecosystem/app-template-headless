@@ -1,5 +1,5 @@
 # app-template-headless
-template for your app without GUI. This app prints progress bar 10 times and sleeps 1 second on each eteration. That's it!
+template for your app without GUI. This app prints progress bar 10 times and sleeps 1 second on each iteration. That's it!
 
 
 See video how app works:
