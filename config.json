@@ -11,5 +11,6 @@
   "isolate": true,
   "icon": "https://img.icons8.com/color/96/000000/console.png",
   "icon_background": "#FFFFFF",
-  "headless": true
+  "headless": true,
+  "poster": "https://i.imgur.com/XO1LGw9.png"
 }
