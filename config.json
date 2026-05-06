@@ -3,7 +3,7 @@
   "description": "template for your headless app",
   "type": "app",
   "categories": ["development"],
-  "docker_image": "supervisely/development:latest",
+  "docker_image": "supervisely/development:6.73.564",
   "instance_version": "6.8.54",
   "main_script": "src/main.py",
   "modal_template": "src/modal.html",
