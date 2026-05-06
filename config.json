@@ -4,7 +4,7 @@
   "type": "app",
   "categories": ["development"],
   "docker_image": "supervisely/development:6.73.564",
-  "instance_version": "6.8.54",
+  "instance_version": "6.15.60",
   "main_script": "src/main.py",
   "modal_template": "src/modal.html",
   "task_location": "workspace_tasks",
